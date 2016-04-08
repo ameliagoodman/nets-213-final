@@ -3,7 +3,7 @@ import csv
 
 #output = csv.writer(open('aggregated_data.csv', 'w'))
 #headers = ['country', 'aattributes...']
-attributes = ['attributes here']
+attributes = ['intelligence', 'humor', 'wealth', 'physical-attractiveness', 'social-status', 'sex', 'emotional-sensitivity', 'affability']
 #output.writerow(headers)
 
 usa = {}
