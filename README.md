@@ -3,8 +3,8 @@ Amelia Goodman, Andrew Graffy, Andrea Baric
 
 ##Layout of our Repo
 *Raw data (HIT screenshots) in /data/hit-screenshot*
-*Input for QC included in HIT, so /data/hit-screenshot*
-*Input/output for aggregation /data/QC Input.csv; /data/QC Output.csv
+*Sample input/output for QC included in HIT, so /data/QC\ Input.csv and /data/QC\ Input.csv
+*Sample input/output for aggregation /data/Aggregation\ Input.csv and /data/Aggregation\ Output.csv
 *Code for QC in /src/qc_module.py
 *Code for aggregation in /src/aggregation_module.py
 
