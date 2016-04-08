@@ -2,11 +2,11 @@
 Amelia Goodman, Andrew Graffy, Andrea Baric
 
 ##Layout of our Repo
-* Raw data (HIT screenshots) in /data/hit-screenshot*
-* Sample input/output for QC in /data/QC\ Input.csv and /data/QC\ Input.csv
-* Sample input/output for aggregation in /data/Aggregation\ Input.csv and /data/Aggregation\ Output.csv
-* Code for QC in /src/qc_module.py
-* Code for aggregation in /src/aggregation_module.py
+* Raw data (HIT screenshots) in Deliverable\ 2/data/hit-screenshot*
+* Sample input/output for QC in Deliverable\ 2/data/QC\ Input.csv and /data/QC\ Input.csv
+* Sample input/output for aggregation in Deliverable\ 2/data/Aggregation\ Input.csv and Deliverable\ 2/data/Aggregation\ Output.csv
+* Code for QC in Deliverable\ 2/src/qc_module.py
+* Code for aggregation in Deliverable\ 2/src/aggregation_module.py
 
 
 ###Module 1: Interaction (screenshots in /data/)
