@@ -3,10 +3,13 @@ Amelia Goodman, Andrew Graffy, Andrea Baric
 
 ##Layout of our Repo
 * Raw data (HIT screenshots) in Deliverable\ 2/data/hit-screenshot*
-* Sample input/output for QC in Deliverable\ 2/data/QC\ Input.csv and /data/QC\ Input.csv
-* Sample input/output for aggregation in Deliverable\ 2/data/Aggregation\ Input.csv and Deliverable\ 2/data/Aggregation\ Output.csv
-* Code for QC in Deliverable\ 2/src/qc_module.py
-* Code for aggregation in Deliverable\ 2/src/aggregation_module.py
+* Preliminary output view for aggregation in analysis/preliminary_analysis
+* Code for sample aggregated outputs in analysis/sampleanalysis.html and analysis/sampleanalysis2.html
+* Raw data results from HIT in data/milestone4data.csv
+* Cleaned data results from HIT in data/cleaned_data.csv
+* Cleaned data that checks for quality control in data/quality_controlled_data.csv
+* Code for QC in analysis/qc_module.py
+* Code for aggregation in analysis/aggregation_module.py
 
 
 ###How our code runs
