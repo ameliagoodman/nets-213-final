@@ -1,0 +1,111 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        // USA
+        var usa_data = google.visualization.arrayToDataTable([
+          ['Attribute', 'Average score'],
+          ['Intelligence', 5.96875],
+          ['Humor', 5.84375],
+          ['Wealth', 4.21875],
+          ['Physical Attractiveness', 4.71875],
+          ['Social Status', 3.6875],
+          ['Emotional Sensitivity', 5.375],
+        ]);
+
+        var usa_options = {
+          chart: {
+            title: 'Average Attribute Score - USA',
+          },
+          bars: 'horizontal' // Required for Material Bar Charts.
+        };
+
+        // INDIA
+        var india_data = google.visualization.arrayToDataTable([
+          ['Attribute', 'Average score'],
+          ['Intelligence', 6.1579],
+          ['Humor', 5.5789],
+          ['Wealth', 5.421],
+          ['Physical Attractiveness', 5.5789],
+          ['Social Status', 5.6842],
+          ['Emotional Sensitivity', 5.63157],
+        ]);
+
+        var india_options = {
+          chart: {
+            title: 'Average Attribute Score - India',
+          },
+          bars: 'horizontal' // Required for Material Bar Charts.
+        };
+
+        // China
+        var china_data = google.visualization.arrayToDataTable([
+          ['Attribute', 'Average score'],
+          ['Intelligence', 0],
+          ['Humor', 0],
+          ['Wealth', 0],
+          ['Physical Attractiveness', 0],
+          ['Social Status', 0],
+          ['Emotional Sensitivity', 0],
+        ]);
+
+        var china_options = {
+          chart: {
+            title: 'Average Attribute Score - China',
+          },
+          bars: 'horizontal' // Required for Material Bar Charts.
+        };
+
+        // Turkey
+        var turkey_data = google.visualization.arrayToDataTable([
+          ['Attribute', 'Average score'],
+          ['Intelligence', 6.0],
+          ['Humor', 5.5384],
+          ['Wealth', 5.5384],
+          ['Physical Attractiveness', 5.5384],
+          ['Social Status', 4.923],
+          ['Emotional Sensitivity', 5.3846],
+        ]);
+
+        var turkey_options = {
+          chart: {
+            title: 'Average Attribute Score - Turkey',
+          },
+          bars: 'horizontal' // Required for Material Bar Charts.
+        };
+
+        // Nigeria
+        var nigeria_data = google.visualization.arrayToDataTable([
+          ['Attribute', 'Average score'],
+          ['Intelligence', 6.0],
+          ['Humor', 7.0],
+          ['Wealth', 6.0],
+          ['Physical Attractiveness', 6.0],
+          ['Social Status', 5.0],
+          ['Emotional Sensitivity', 3.0],
+        ]);
+
+        var nigeria_options = {
+          chart: {
+            title: 'Average Attribute Score - Nigeria',
+          },
+          bars: 'horizontal' // Required for Material Bar Charts.
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('barchart_material'));
+
+        //chart.draw(usa_data, usa_options);
+        //chart.draw(india_data, india_options);
+        //chart.draw(china_data, china_options);
+        //chart.draw(turkey_data, turkey_options);
+        chart.draw(nigeria_data, nigeria_options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="barchart_material" style="width: 900px; height: 500px;"></div>
+  </body>
+</html>
