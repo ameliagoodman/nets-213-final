@@ -1,10 +1,10 @@
-country,gender,age,ethnicity,orientation,intelligence,intelligencecountry,humor,humorcountry,wealth,wealthcountry,physicalattractiveness,physicalattractivenesscountry,socialstatus,socialstatuscountry,health,healthcountry,emotionalsensitivity,emotionalsensitivitycountry,affability,affabilitycountry,southasianm,southasianmcountry,eastasianm,eastasianmcountry,americanm,americanmcountry,africanm,africanmcountry,middleeasternm,middleeasternmcountry,middleeasternw,middleeasternwcountry,africanw,africanwcountry,americanw,americanwcountry,eastasianw,eastasianwcountry,southasianw,southasianwcountry
+what_country_do_you_live_in,yourgender,age,your_ethnicity,orientation,intelligence,intelligencecountry,humor,humorcountry,wealth,wealthcountry,physicalattractiveness,physicalattractivenesscountry,socialstatus,socialstatuscountry,health,healthcountry,emotionalsensitivity,emotionalsensitivitycountry,affability,affabilitycountry,southasianm,southasianmcountry,eastasianm,eastasianmcountry,americanm,americanmcountry,africanm,africanmcountry,middleeasternm,middleeasternmcountry,middleeasternw,middleeasternwcountry,africanw,africanwcountry,americanw,americanwcountry,eastasianw,eastasianwcountry,southasianw,southasianwcountry
 India,Female,25-30,East Asian,Men,6,6,5,6,6,7,7,7,5,7,3,3,6,7,2,2,5,4,3,4,4,4,3,1,4,5,,,,,,,,,,
 India,Male,31-45,East Asian,Women,7,5,6,7,6,7,7,5,7,5,3,3,6,2,2,2,,,,,,,,,,,5,5,5,5,5,3,5,5,5,5
 India,Male,31-45,South Asian,Men,6,7,7,6,5,7,6,5,7,6,3,3,4,6,2,2,2,1,5,4,4,4,2,1,4,3,,,,,,,,,,
-Estados Unidos,Male,25-30,Blanco,Women,5,3,5,5,2,4,4,6,2,3,3,3,6,5,2,2,,,,,,,,,,,1,1,2,3,4,5,4,5,2,3
+USA,Male,25-30,White,Women,5,3,5,5,2,4,4,6,2,3,3,3,6,5,2,2,,,,,,,,,,,1,1,2,3,4,5,4,5,2,3
 USA,Female,46-60,White,Men,6,7,5,5,5,5,6,5,5,5,3,3,6,6,2,2,3,3,2,3,3,3,1,1,4,4,,,,,,,,,,
-Türkiye,Male,31-45,Beyaz,Men,6,5,6,5,6,5,6,5,5,6,3,3,4,5,2,2,2,2,3,3,3,3,1,1,1,1,,,,,,,,,,
+Turkey,Male,31-45,White,Men,6,5,6,5,6,5,6,5,5,6,3,3,4,5,2,2,2,2,3,3,3,3,1,1,1,1,,,,,,,,,,
 USA,Female,46-60,White,Men,6,5,7,2,3,6,4,6,2,5,3,3,4,6,2,2,2,2,3,3,3,3,3,3,2,2,,,,,,,,,,
 Egypt,Male,18-24,Middle Eastern,Women,7,3,6,6,2,7,7,7,6,6,3,3,5,3,2,2,,,,,,,,,,,3,3,1,1,4,5,5,3,2,1
 USA,Female,18-24,White,Men,6,4,5,6,3,4,6,6,1,1,3,3,7,4,2,2,3,1,2,3,5,4,1,5,4,2,,,,,,,,,,
@@ -12,7 +12,7 @@ USA,Female,46-60,White,Men,6,5,5,6,3,6,7,7,5,7,3,3,6,5,2,2,5,4,2,3,4,4,4,3,4,3,,
 USA,Female,46-60,White,Men,2,5,7,4,2,6,4,7,1,5,3,3,7,7,2,2,4,4,2,3,2,3,1,5,5,5,,,,,,,,,,
 Hong Kong,Female,18-24,East Asian,Men,6,5,4,5,3,5,4,5,3,4,3,3,4,4,2,2,4,4,4,4,2,3,2,2,2,2,,,,,,,,,,
 USA,Male,31-45,East Asian,Women,5,5,5,5,4,4,4,5,4,5,3,3,4,5,2,2,,,,,,,,,,,4,4,4,4,4,4,5,5,3,3
-Türkiye,Male,31-45,Beyaz,Women,7,7,7,7,7,7,7,7,7,7,3,3,5,5,2,2,,,,,,,,,,,2,2,4,4,5,5,2,2,2,2
+Turkey,Male,31-45,White,Women,7,7,7,7,7,7,7,7,7,7,3,3,5,5,2,2,,,,,,,,,,,2,2,4,4,5,5,2,2,2,2
 Hong Kong,Male,18-24,East Asian,Men,5,4,3,3,5,4,2,2,5,5,3,3,5,5,2,2,2,2,4,4,5,5,1,2,3,3,,,,,,,,,,
 USA,Male,31-45,White,Women,7,5,5,4,5,6,3,6,5,6,3,3,6,6,2,2,,,,,,,,,,,4,3,4,4,4,5,3,5,4,3
 USA,Female,31-45,White,Men,6,4,6,5,3,6,5,7,1,5,3,3,5,3,2,2,1,1,3,2,4,5,3,3,1,1,,,,,,,,,,

@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Attribute', 'USA', 'India', 'Hong Kong', 'Turkey', 'Nigeria', 'Egypt'],
+          ['Intelligence', 5.91 , 5.94 , 5.33 , 6.09 , 6.50 , 5.58],
+          ['Humor', 5.84 , 5.84 , 4.83 , 5.84 , 7.00 , 5.50],
+          ['Wealth', 4.19 , 5.31 , 4.75 , 5.11 , 6.50 , 4.67],
+          ['Physical Attractiveness', 5.14 , 5.71 , 4.67 , 5.59 , 6.50 , 5.21],
+          ['Social Status', 3.64 , 5.56 , 4.42 , 5.29 , 4.50 , 5.17],
+          ['Emotional Sensitivity', 5.43 , 5.61 , 4.67 , 5.64 , 4.00 , 4.96]
+        ]);
+
+        var options = {
+          chart: {
+            title: 'Individual Attribute Scores by Country',
+            subtitle: 'Data--that has not been controlled for quality--showing the individual\'s response to weighting each attribute, organized by country',
+          }
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
+
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="columnchart_material" style="width: 900px; height: 500px;"></div>
+  </body>
+</html>
