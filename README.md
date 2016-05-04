@@ -2,19 +2,16 @@
 Amelia Goodman, Andrew Graffy, Andrea Baric
 
 ##Layout of our Repo
-* Raw data (HIT screenshots) in Deliverable\ 2/data/hit-screenshot*
-* Preliminary output view for aggregation in analysis/preliminary_analysis
-* Code for sample aggregated outputs in analysis/sampleanalysis.html and analysis/sampleanalysis2.html
-* Raw data results from HIT in data/milestone4data.csv
-* Cleaned data results from HIT in data/cleaned_data.csv
+* Raw data (HIT screenshots) in Past\ Deliverables/Deliverable\ 2/data/hit-screenshot*
+* Raw data results from HIT in data/not-qc-data.csv
 * Cleaned data that checks for quality control in data/quality_controlled_data.csv
-* Code for QC in analysis/qc_module.py
+* Code for Quality Control in analysis/qc_module.py
 * Code for aggregation in analysis/aggregation_module.py
-
+* Code for visual analyses of data in data/cluster-chart.html
 
 ###How our code runs
 * qc_module.py takes in as input the full CSV output from our Crowdflower results and filters the results so any responses that did not follow our instructions ("affability" rated 2 for their rating, "health" rated 3 for their country's rating) are deleted. The results are maintained in a CSV.
-* aggregation_module.py takes in as input our cleaned CSV file from qc_module.py and finds the average rating for each attribute for the five countries we will survey.
+* aggregation_module.py takes in as input our cleaned CSV file from qc_module.py and finds the average rating for each attribute for the different variables we measure for, like country, ethnicity, gender, etc.
 
 ###Module 1: Interaction (screenshots in Deliverable\ 2/data/)
 We have a Crowdflower hit that first surveys the participant's demographic information like age range, gender, location, and ethnicity. We will then ask the contributors to rate 7 personal attributes (i.e., intelligence, wealth, physical appearance) on a 1-7 scale based on how important it is to them when selecting a romantic partner. Then, we will ask them to rate the same attributes based on what they think people in their home country would prefer on average. Also, we will have them rate hand-selected photos of different ethnicities in order to observe their preference for race when it comes to physical attraction. The input for the HIT will be hand-selected pictures of South Asian, East Asian, American, African, and Middle Eastern men and women. The output will be a CSV file containing the contributors' demographic information, ratings for themselves, perceived "average" ratings for their home country, and their ratings of the photos. 
