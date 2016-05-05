@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Ethnicity', 'South Asian', 'East Asian', 'Black', 'Latino', 'Middle Eastern', 'White'],
+          ['East Asian',  3.38,  3.42,  0.66,  3.0,  2.0,  2.27], 
+          ['South Asian',  4.13,  3.92,  3.33,  3.0,  4.67,  3.73], 
+          ['American',  3.75,  4.0,  3.0,  3.5,  3.33,  3.6], 
+          ['African',  3.5,  2.66,  1.33,  3.5,  2.33,  2.67], 
+          ['Middle Eastern',  3.38,  3.08, 4.0,  3.0,  2.67,  2.88], 
+          
+        ]);
+
+        var options = {
+          chart: {
+            title: 'People interested in Women Individual Scores by Ethnicity',
+            subtitle: 'Quality controlled data for the individual\'s response to weighting group of women, organized by ethnicity',
+          }
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
+
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="columnchart_material" style="width: 900px; height: 500px;"></div>
+  </body>
+</html>
